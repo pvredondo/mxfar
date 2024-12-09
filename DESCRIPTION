@@ -1,0 +1,14 @@
+Package: mxfar
+Type: Package
+Title: Inference for the Mixed-Effects Functional-Coefficient Autoregressive (MXFAR) Model
+Version: 0.1.0
+Author: Paolo Victor Redondo
+Maintainer: Paolo Victor Redondo <redondopaolo@gmail.com>
+Description: A collection of functions to simulate, estimate, and test for nonlinearity for the MXFAR model.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5.0)
+LinkingTo: Rcpp, RcppArmadillo
+Imports: Rcpp, MASS, vars, stats
+RoxygenNote: 7.3.2
